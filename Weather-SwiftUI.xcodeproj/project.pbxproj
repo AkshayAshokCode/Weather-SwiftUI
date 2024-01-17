@@ -11,6 +11,8 @@
 		C47050BC2B56175C002531EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47050BB2B56175C002531EB /* ContentView.swift */; };
 		C47050BE2B56175C002531EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47050BD2B56175C002531EB /* Assets.xcassets */; };
 		C47050C12B56175C002531EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47050C02B56175C002531EB /* Preview Assets.xcassets */; };
+		C4734E1A2B582BB900E54C7A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4734E192B582BB900E54C7A /* Extensions.swift */; };
+		C4734E1C2B582EE100E54C7A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4734E1B2B582EE100E54C7A /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C47050BB2B56175C002531EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C47050BD2B56175C002531EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C47050C02B56175C002531EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4734E192B582BB900E54C7A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C4734E1B2B582EE100E54C7A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		C4734E142B582A5400E54C7A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C4734E192B582BB900E54C7A /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C47050BB2B56175C002531EB /* ContentView.swift */,
+				C4734E1B2B582EE100E54C7A /* HomeView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47050BC2B56175C002531EB /* ContentView.swift in Sources */,
+				C4734E1C2B582EE100E54C7A /* HomeView.swift in Sources */,
+				C4734E1A2B582BB900E54C7A /* Extensions.swift in Sources */,
 				C47050BA2B56175C002531EB /* Weather_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
