@@ -14,6 +14,7 @@
 		C47050C12B56175C002531EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47050C02B56175C002531EB /* Preview Assets.xcassets */; };
 		C4734E1A2B582BB900E54C7A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4734E192B582BB900E54C7A /* Extensions.swift */; };
 		C4734E1C2B582EE100E54C7A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4734E1B2B582EE100E54C7A /* HomeView.swift */; };
+		C4B79CD02B5A02AD002B8CD2 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B79CCF2B5A02AD002B8CD2 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C47050C02B56175C002531EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4734E192B582BB900E54C7A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4734E1B2B582EE100E54C7A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C4B79CCF2B5A02AD002B8CD2 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C4734E192B582BB900E54C7A /* Extensions.swift */,
+				C4B79CCF2B5A02AD002B8CD2 /* Shapes.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				C4734E1A2B582BB900E54C7A /* Extensions.swift in Sources */,
 				C47050BA2B56175C002531EB /* Weather_SwiftUIApp.swift in Sources */,
 				C465B0C72B58AD3A00094AE9 /* TabBar.swift in Sources */,
+				C4B79CD02B5A02AD002B8CD2 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
