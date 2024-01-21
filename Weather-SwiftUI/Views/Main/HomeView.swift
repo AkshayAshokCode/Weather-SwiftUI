@@ -30,7 +30,7 @@ struct HomeView: View {
                     .padding(.top, 257)
                 
                 VStack(spacing: -10){
-                    Text("Montreal")
+                    Text("Pune")
                         .font(.largeTitle)
                     
                     VStack{

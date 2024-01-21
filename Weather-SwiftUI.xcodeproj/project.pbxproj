@@ -17,6 +17,7 @@
 		C4734E1A2B582BB900E54C7A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4734E192B582BB900E54C7A /* Extensions.swift */; };
 		C4734E1C2B582EE100E54C7A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4734E1B2B582EE100E54C7A /* HomeView.swift */; };
 		C4ACDB9E2B5CC81D0029C00C /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ACDB9D2B5CC81D0029C00C /* ForecastView.swift */; };
+		C4ACDBA02B5D40300029C00C /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ACDB9F2B5D40300029C00C /* Blur.swift */; };
 		C4B79CD02B5A02AD002B8CD2 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B79CCF2B5A02AD002B8CD2 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		C4734E192B582BB900E54C7A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4734E1B2B582EE100E54C7A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C4ACDB9D2B5CC81D0029C00C /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		C4ACDB9F2B5D40300029C00C /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		C4B79CCF2B5A02AD002B8CD2 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 		C4734E182B582A9100E54C7A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C4ACDB9F2B5D40300029C00C /* Blur.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				C47050BC2B56175C002531EB /* ContentView.swift in Sources */,
 				C4734E1C2B582EE100E54C7A /* HomeView.swift in Sources */,
+				C4ACDBA02B5D40300029C00C /* Blur.swift in Sources */,
 				C4734E1A2B582BB900E54C7A /* Extensions.swift in Sources */,
 				C47050BA2B56175C002531EB /* Weather_SwiftUIApp.swift in Sources */,
 				C4ACDB9E2B5CC81D0029C00C /* ForecastView.swift in Sources */,

@@ -21,3 +21,11 @@ extension Color{
     static let forecast_CardBackground = Color("Forecast Card Background")
     static let probability_Text = Color("Probability Text")
 }
+
+extension View{
+    func backgroundBlur(radius: CGFloat = 3, opaque: Bool = false) -> some View{
+        self
+            .background(
+            Blur(radius: radius, opaque: opaque))
+    }
+}
