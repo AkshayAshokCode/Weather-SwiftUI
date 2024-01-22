@@ -21,6 +21,9 @@
 		C478FAC12B5EAAF600F7106A /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478FAC02B5EAAF600F7106A /* NavigationBar.swift */; };
 		C478FAC32B5EAE5300F7106A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478FAC22B5EAE5300F7106A /* WeatherView.swift */; };
 		C478FAC52B5EB01D00F7106A /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478FAC42B5EB01D00F7106A /* WeatherWidget.swift */; };
+		C483895C2B5ED4E800FEF655 /* weatherAppSwiftUI-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C48389592B5ED4E800FEF655 /* weatherAppSwiftUI-1.png */; };
+		C483895D2B5ED4E800FEF655 /* weatherAppSwiftUI-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C483895A2B5ED4E800FEF655 /* weatherAppSwiftUI-2.png */; };
+		C483895E2B5ED4E800FEF655 /* weatherAppSwiftUI-3.png in Resources */ = {isa = PBXBuildFile; fileRef = C483895B2B5ED4E800FEF655 /* weatherAppSwiftUI-3.png */; };
 		C4ACDB9E2B5CC81D0029C00C /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ACDB9D2B5CC81D0029C00C /* ForecastView.swift */; };
 		C4ACDBA02B5D40300029C00C /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ACDB9F2B5D40300029C00C /* Blur.swift */; };
 		C4ACDBA22B5D611E0029C00C /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ACDBA12B5D611E0029C00C /* SegmentedControl.swift */; };
@@ -41,6 +44,9 @@
 		C478FAC02B5EAAF600F7106A /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		C478FAC22B5EAE5300F7106A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		C478FAC42B5EB01D00F7106A /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
+		C48389592B5ED4E800FEF655 /* weatherAppSwiftUI-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weatherAppSwiftUI-1.png"; sourceTree = "<group>"; };
+		C483895A2B5ED4E800FEF655 /* weatherAppSwiftUI-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weatherAppSwiftUI-2.png"; sourceTree = "<group>"; };
+		C483895B2B5ED4E800FEF655 /* weatherAppSwiftUI-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weatherAppSwiftUI-3.png"; sourceTree = "<group>"; };
 		C4ACDB9D2B5CC81D0029C00C /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		C4ACDB9F2B5D40300029C00C /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		C4ACDBA12B5D611E0029C00C /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
@@ -79,6 +85,7 @@
 		C47050B82B56175C002531EB /* Weather-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C48389582B5ED4B500FEF655 /* Screenshots */,
 				C47050B92B56175C002531EB /* Weather_SwiftUIApp.swift */,
 				C4734E122B582A3B00E54C7A /* Views */,
 				C4734E132B582A4A00E54C7A /* Models */,
@@ -163,6 +170,16 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		C48389582B5ED4B500FEF655 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C48389592B5ED4E800FEF655 /* weatherAppSwiftUI-1.png */,
+				C483895A2B5ED4E800FEF655 /* weatherAppSwiftUI-2.png */,
+				C483895B2B5ED4E800FEF655 /* weatherAppSwiftUI-3.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,8 +245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C483895C2B5ED4E800FEF655 /* weatherAppSwiftUI-1.png in Resources */,
+				C483895D2B5ED4E800FEF655 /* weatherAppSwiftUI-2.png in Resources */,
 				C47050C12B56175C002531EB /* Preview Assets.xcassets in Resources */,
 				C47050BE2B56175C002531EB /* Assets.xcassets in Resources */,
+				C483895E2B5ED4E800FEF655 /* weatherAppSwiftUI-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
